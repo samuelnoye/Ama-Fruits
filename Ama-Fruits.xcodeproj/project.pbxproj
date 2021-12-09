@@ -10,6 +10,7 @@
 		D58C480C27620FCD0069A200 /* FruitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58C480B27620FCD0069A200 /* FruitModel.swift */; };
 		D58C4811276215290069A200 /* FruitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58C4810276215290069A200 /* FruitData.swift */; };
 		D58C4815276256560069A200 /* FruitRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58C4814276256560069A200 /* FruitRowView.swift */; };
+		D58C481727625F2D0069A200 /* FruitDetialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58C481627625F2D0069A200 /* FruitDetialView.swift */; };
 		D5CF97B9276100690075C6B3 /* Ama_FruitsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CF97B8276100690075C6B3 /* Ama_FruitsApp.swift */; };
 		D5CF97BB276100690075C6B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CF97BA276100690075C6B3 /* ContentView.swift */; };
 		D5CF97BD2761006B0075C6B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5CF97BC2761006B0075C6B3 /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 		D58C480B27620FCD0069A200 /* FruitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitModel.swift; sourceTree = "<group>"; };
 		D58C4810276215290069A200 /* FruitData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitData.swift; sourceTree = "<group>"; };
 		D58C4814276256560069A200 /* FruitRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitRowView.swift; sourceTree = "<group>"; };
+		D58C481627625F2D0069A200 /* FruitDetialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FruitDetialView.swift; path = "Ama-Fruits/Views/FruitDetialView.swift"; sourceTree = SOURCE_ROOT; };
 		D5CF97B5276100690075C6B3 /* Ama-Fruits.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ama-Fruits.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5CF97B8276100690075C6B3 /* Ama_FruitsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ama_FruitsApp.swift; sourceTree = "<group>"; };
 		D5CF97BA276100690075C6B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 		D5CF97C6276104F30075C6B3 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				D58C481627625F2D0069A200 /* FruitDetialView.swift */,
 				D5CF97B8276100690075C6B3 /* Ama_FruitsApp.swift */,
 				D5CF97BA276100690075C6B3 /* ContentView.swift */,
 				D5CF97DA276205FB0075C6B3 /* OnboardingView.swift */,
@@ -187,6 +190,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D58C481727625F2D0069A200 /* FruitDetialView.swift in Sources */,
 				D58C4811276215290069A200 /* FruitData.swift in Sources */,
 				D5CF97D0276107110075C6B3 /* FruitsCardView.swift in Sources */,
 				D58C4815276256560069A200 /* FruitRowView.swift in Sources */,
