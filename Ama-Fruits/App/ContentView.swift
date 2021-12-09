@@ -10,25 +10,25 @@ import SwiftUI
 struct ContentView: View {
     
     //MARK: - PROPERTIES
-    var fruit: [Fruit] = fruitData
+    var fruits: [Fruit] = fruitData
     
     //MARK: - BODY
     var body: some View {
         NavigationView {
             List {
-                ForEach(fruit){item in
+                ForEach(fruits.shuffled()){ item in
                     FruitRowView(fruit: item)
+                        .padding(.vertical, 4)
                 }
             }
-        }
-    
-       
+            .navigationTitle("Fruits")
+        }//: NAVIGATION
     }
 }
     //MARK: - PREVIEW
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView(fruit: fruitData)
-            .previewDevice("iPhone 11 Pro")
+        ContentView(fruits: fruitData)
+            
     }
 }
