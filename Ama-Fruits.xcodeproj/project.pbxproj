@@ -13,6 +13,7 @@
 		D5CF97C02761006B0075C6B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5CF97BF2761006B0075C6B3 /* Preview Assets.xcassets */; };
 		D5CF97D0276107110075C6B3 /* FruitsCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CF97CF276107110075C6B3 /* FruitsCardView.swift */; };
 		D5CF97D92761F6770075C6B3 /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CF97D82761F6770075C6B3 /* StartButtonView.swift */; };
+		D5CF97DB276205FB0075C6B3 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CF97DA276205FB0075C6B3 /* OnboardingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		D5CF97BF2761006B0075C6B3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D5CF97CF276107110075C6B3 /* FruitsCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsCardView.swift; sourceTree = "<group>"; };
 		D5CF97D82761F6770075C6B3 /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
+		D5CF97DA276205FB0075C6B3 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 			children = (
 				D5CF97B8276100690075C6B3 /* Ama_FruitsApp.swift */,
 				D5CF97BA276100690075C6B3 /* ContentView.swift */,
+				D5CF97DA276205FB0075C6B3 /* OnboardingView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 				D5CF97D0276107110075C6B3 /* FruitsCardView.swift in Sources */,
 				D5CF97D92761F6770075C6B3 /* StartButtonView.swift in Sources */,
 				D5CF97BB276100690075C6B3 /* ContentView.swift in Sources */,
+				D5CF97DB276205FB0075C6B3 /* OnboardingView.swift in Sources */,
 				D5CF97B9276100690075C6B3 /* Ama_FruitsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
