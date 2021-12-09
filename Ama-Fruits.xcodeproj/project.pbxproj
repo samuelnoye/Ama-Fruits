@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D58C480C27620FCD0069A200 /* FruitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58C480B27620FCD0069A200 /* FruitModel.swift */; };
 		D5CF97B9276100690075C6B3 /* Ama_FruitsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CF97B8276100690075C6B3 /* Ama_FruitsApp.swift */; };
 		D5CF97BB276100690075C6B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CF97BA276100690075C6B3 /* ContentView.swift */; };
 		D5CF97BD2761006B0075C6B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5CF97BC2761006B0075C6B3 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D58C480B27620FCD0069A200 /* FruitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitModel.swift; sourceTree = "<group>"; };
 		D5CF97B5276100690075C6B3 /* Ama-Fruits.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ama-Fruits.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5CF97B8276100690075C6B3 /* Ama_FruitsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ama_FruitsApp.swift; sourceTree = "<group>"; };
 		D5CF97BA276100690075C6B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -38,6 +40,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D58C480A27620FB70069A200 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D58C480B27620FCD0069A200 /* FruitModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		D5CF97AC276100690075C6B3 = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +67,7 @@
 		D5CF97B7276100690075C6B3 /* Ama-Fruits */ = {
 			isa = PBXGroup;
 			children = (
+				D58C480A27620FB70069A200 /* Model */,
 				D5CF97C7276105700075C6B3 /* Views */,
 				D5CF97C6276104F30075C6B3 /* App */,
 				D5CF97BC2761006B0075C6B3 /* Assets.xcassets */,
@@ -166,6 +177,7 @@
 				D5CF97D92761F6770075C6B3 /* StartButtonView.swift in Sources */,
 				D5CF97BB276100690075C6B3 /* ContentView.swift in Sources */,
 				D5CF97DB276205FB0075C6B3 /* OnboardingView.swift in Sources */,
+				D58C480C27620FCD0069A200 /* FruitModel.swift in Sources */,
 				D5CF97B9276100690075C6B3 /* Ama_FruitsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
