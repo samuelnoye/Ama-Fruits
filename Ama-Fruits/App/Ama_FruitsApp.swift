@@ -16,7 +16,7 @@ struct Ama_FruitsApp: App {
             if isOnboarding{
                 OnboardingView()
             } else {
-                ContentView()
+                 ContentView()
             }
             
         }

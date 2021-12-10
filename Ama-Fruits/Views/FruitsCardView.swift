@@ -25,7 +25,7 @@ struct FruitsCardView: View {
                     .scaledToFit()
                     .shadow(color: Color(red: 0, green:0, blue: 0, opacity: 0.15), radius: 8, x: 6, y: 8)
             
-            //Fruits: Title
+                //Fruits: Title
                 Text(fruit.title)
                     .foregroundColor(Color.white)
                     .font(.largeTitle)
@@ -33,14 +33,14 @@ struct FruitsCardView: View {
                     .shadow(color: Color(red: 0, green: 0, blue: 0, opacity: 0.15), radius: 2, x: 2, y: 2)
                     .scaleEffect(isAnimating ? 1.0 : 0.6)
                 
-            //Fruits: Headline
+                //Fruits: Headline
                 Text(fruit.headline)
                     .foregroundColor(Color.white)
                     .multilineTextAlignment(.center)
                     .padding(.horizontal, 16)
                     .frame(maxWidth: 480)
                 
-            //Button: Start
+               //Button: Start
                 StartButtonView()
             }//: VStack
         }//: ZSTACK
