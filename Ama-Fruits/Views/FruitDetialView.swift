@@ -55,8 +55,9 @@ struct FruitDetialView: View {
                     .frame(maxWidth: 640, alignment: .center)
                 }//:VStack
                 .navigationBarTitle(fruit.title, displayMode: .inline)
-                navigationBarHidden(true)
+                .navigationBarHidden(true)
             }//:Scroll
+            .edgesIgnoringSafeArea(.top)
         }//: navigation
     }
 }
