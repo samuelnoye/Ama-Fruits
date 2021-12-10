@@ -9,14 +9,14 @@ import SwiftUI
 
 @main
 struct Ama_FruitsApp: App {
-    @AppStorage("isOnboarding") var isOnboarding: Bool = false
+    @AppStorage("isOnboarding") var isOnboarding: Bool = true
      
     var body: some Scene {
         WindowGroup {
             if isOnboarding{
                 OnboardingView()
             } else {
-                 ContentView()
+                ContentView()
             }
             
         }
