@@ -10,6 +10,7 @@ import SwiftUI
 struct SettingView: View {
     //MARK: - PROPERTIES
     @Environment(\.presentationMode) var presentationMode
+    @AppStorage("isOnboarding") var isOnboarding: Bool = false
     
     //MARK: - BODY
     var body: some View {
@@ -35,8 +36,23 @@ struct SettingView: View {
                         }
                     }
                    //MARK: - SECTION 2
+                    GroupBox(
+                        label: SettingsLabelView(labeltext: "Customization", labelImage: "paintbrush")
+                    ){
+                        Divider().padding(.vertical,4)
+                        Text("If you wish, you can restart the application by the toggle switch in this bax. That way it satrts the onboarding process and you will see the welcome screen again.")
+                            .padding(.vertical,8)
+                            .frame(minWidth: 60)
+                            .layoutPriority(1)
+                            .font(.footnote)
+                            .multilineTextAlignment(.leading)
+                        Toggle(isOn: $isOnboarding){
+                            Text("Restart".uppercased())
+                        }
+                    }
                     
-                   //MARK: - SECTION 2
+                    
+                   //MARK: - SECTION 3
                     GroupBox(
                         label: SettingsLabelView(labeltext: "Application", labelImage: "apps.iphone")
                           )
