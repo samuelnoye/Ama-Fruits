@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D55B882C27638F330075DF5D /* SettingsLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55B882B27638F330075DF5D /* SettingsLabelView.swift */; };
+		D55B882E27639ABD0075DF5D /* SettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55B882D27639ABD0075DF5D /* SettingsRowView.swift */; };
 		D58C480C27620FCD0069A200 /* FruitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58C480B27620FCD0069A200 /* FruitModel.swift */; };
 		D58C4811276215290069A200 /* FruitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58C4810276215290069A200 /* FruitData.swift */; };
 		D58C4815276256560069A200 /* FruitRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58C4814276256560069A200 /* FruitRowView.swift */; };
@@ -27,6 +28,7 @@
 
 /* Begin PBXFileReference section */
 		D55B882B27638F330075DF5D /* SettingsLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsLabelView.swift; sourceTree = "<group>"; };
+		D55B882D27639ABD0075DF5D /* SettingsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRowView.swift; sourceTree = "<group>"; };
 		D58C480B27620FCD0069A200 /* FruitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitModel.swift; sourceTree = "<group>"; };
 		D58C4810276215290069A200 /* FruitData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitData.swift; sourceTree = "<group>"; };
 		D58C4814276256560069A200 /* FruitRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitRowView.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 				D58C483827635B100069A200 /* SourceLinkView.swift */,
 				D58C483A2763636A0069A200 /* FruitNutrientsView.swift */,
 				D55B882B27638F330075DF5D /* SettingsLabelView.swift */,
+				D55B882D27639ABD0075DF5D /* SettingsRowView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 			files = (
 				D58C481727625F2D0069A200 /* FruitDetialView.swift in Sources */,
 				D58C483927635B100069A200 /* SourceLinkView.swift in Sources */,
+				D55B882E27639ABD0075DF5D /* SettingsRowView.swift in Sources */,
 				D58C4811276215290069A200 /* FruitData.swift in Sources */,
 				D58C48372763476F0069A200 /* FruitsHeaderView.swift in Sources */,
 				D58C483B2763636A0069A200 /* FruitNutrientsView.swift in Sources */,

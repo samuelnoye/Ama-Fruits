@@ -31,12 +31,23 @@ struct SettingView: View {
                                 .scaledToFit()
                                 .frame(width: 80, height: 80)
                             Text("Most fruits are naturally low in fat, sodium, and calories. None have chelesterol. fruits are sources of mnay essential nutrients, including potassium, dietary fiber, vitramins, and much more.")
-                                .font(.footnote) 
+                                .font(.footnote)
                         }
                     }
                    //MARK: - SECTION 2
                     
                    //MARK: - SECTION 2
+                    GroupBox(
+                        label: SettingsLabelView(labeltext: "Application", labelImage: "apps.iphone")
+                          )
+                    {
+                        Divider().padding(.vertical,4)
+                        HStack{
+                            Text("Developer").foregroundColor(Color.gray)
+                            Spacer()
+                            Text("John / June")
+                        }
+                    }//: Box
                     
                 }//: Vstack
                 .navigationTitle(Text("Settings"))
