@@ -42,11 +42,14 @@ struct SettingView: View {
                           )
                     {
                         Divider().padding(.vertical,4)
-                        HStack{
-                            Text("Developer").foregroundColor(Color.gray)
-                            Spacer()
-                            Text("John / June")
-                        }
+                        SettingsRowView(name: "Developer", content: "John / June")
+                        SettingsRowView(name: "Designer", content: "Samuel Noye")
+                        SettingsRowView(name: "Compatibility", content: "IOS 14")
+                        
+                        SettingsRowView(name: "Website", linkLabel: "Portfolio", linkDestination: "http://noyesamuel.netlify.app")
+                        SettingsRowView(name: "Twitter", linkLabel: "@samilaxy", linkDestination: "twitter.com/samilaxy")
+                        SettingsRowView(name: "SwiftUi", content: "2.0")
+                        SettingsRowView(name: "Version", content: "1.1.0")
                     }//: Box
                     
                 }//: Vstack
