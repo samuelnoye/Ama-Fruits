@@ -17,9 +17,12 @@ struct FruitDetialView: View {
         NavigationView{
             ScrollView(.vertical, showsIndicators: false){
                 VStack (alignment: .center, spacing: 20){
-                    // HEADER
-                    VStack(alignment: .leading, spacing: 20){
                     
+                    // HEADER
+                        FruitsHeaderView(fruit: fruit)
+                    
+                    VStack(alignment: .leading, spacing: 20){
+                        
                     // TITLE
                     Text(fruit.title)
                             .font(.largeTitle)
@@ -51,6 +54,8 @@ struct FruitDetialView: View {
                     .padding(.horizontal, 20)
                     .frame(maxWidth: 640, alignment: .center)
                 }//:VStack
+                .navigationBarTitle(fruit.title, displayMode: .inline)
+                navigationBarHidden(true)
             }//:Scroll
         }//: navigation
     }
