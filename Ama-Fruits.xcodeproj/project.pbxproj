@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D55B882C27638F330075DF5D /* SettingsLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55B882B27638F330075DF5D /* SettingsLabelView.swift */; };
 		D58C480C27620FCD0069A200 /* FruitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58C480B27620FCD0069A200 /* FruitModel.swift */; };
 		D58C4811276215290069A200 /* FruitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58C4810276215290069A200 /* FruitData.swift */; };
 		D58C4815276256560069A200 /* FruitRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58C4814276256560069A200 /* FruitRowView.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D55B882B27638F330075DF5D /* SettingsLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsLabelView.swift; sourceTree = "<group>"; };
 		D58C480B27620FCD0069A200 /* FruitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitModel.swift; sourceTree = "<group>"; };
 		D58C4810276215290069A200 /* FruitData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitData.swift; sourceTree = "<group>"; };
 		D58C4814276256560069A200 /* FruitRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitRowView.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 			children = (
 				D58C481627625F2D0069A200 /* FruitDetialView.swift */,
 				D5CF97B8276100690075C6B3 /* Ama_FruitsApp.swift */,
+				D58C483C2763700E0069A200 /* SettingView.swift */,
 				D5CF97BA276100690075C6B3 /* ContentView.swift */,
 				D5CF97DA276205FB0075C6B3 /* OnboardingView.swift */,
 			);
@@ -127,7 +130,7 @@
 				D58C48362763476F0069A200 /* FruitsHeaderView.swift */,
 				D58C483827635B100069A200 /* SourceLinkView.swift */,
 				D58C483A2763636A0069A200 /* FruitNutrientsView.swift */,
-				D58C483C2763700E0069A200 /* SettingView.swift */,
+				D55B882B27638F330075DF5D /* SettingsLabelView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 				D58C483D2763700E0069A200 /* SettingView.swift in Sources */,
 				D5CF97BB276100690075C6B3 /* ContentView.swift in Sources */,
 				D5CF97DB276205FB0075C6B3 /* OnboardingView.swift in Sources */,
+				D55B882C27638F330075DF5D /* SettingsLabelView.swift in Sources */,
 				D58C480C27620FCD0069A200 /* FruitModel.swift in Sources */,
 				D5CF97B9276100690075C6B3 /* Ama_FruitsApp.swift in Sources */,
 			);

@@ -14,9 +14,20 @@ struct SettingView: View {
     //MARK: - BODY
     var body: some View {
         NavigationView{
-            ScrollView(){
+            ScrollView(.vertical, showsIndicators: false){
                 VStack(spacing: 20) {
-                    Text("Settings")
+                   //MARK: - SECTION 1
+                    GroupBox(
+                        label:
+                            SettingsLabelView(labeltext: "Ama Fruits", labelImage: "info.circle")
+                                )
+                    {
+                        Text("")
+                    }
+                   //MARK: - SECTION 2
+                    
+                   //MARK: - SECTION 2
+                    
                 }//: Vstack
                 .navigationTitle(Text("Settings"))
                 .navigationBarItems(
