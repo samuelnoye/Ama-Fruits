@@ -13,19 +13,19 @@ struct OnboardingView: View {
     var fruits: [Fruit] = fruitData
     
     //MARK: - BOBY
-//     var body: some View {
-//         TabView{
-//             ForEach(fruits[0...5]){ item in
-//                 FruitsCardView(fruit: item)
+    var body: some View {
+        TabView{
+            ForEach(fruits[0...5]){ item in
+                FruitsCardView(fruit: item)
                 
-//             }//:LOOP
-//         }//:TAB
-//         .ignoresSafeArea(.all)
-//         .tabViewStyle(PageTabViewStyle())
+            }//:LOOP
+        }//:TAB
+        .ignoresSafeArea(.all)
+        .tabViewStyle(PageTabViewStyle())
         
         
-//     }
-// }
+    }
+}
 
 //MARK: - PREVIEW
 struct OnboardingView_Previews: PreviewProvider {
