@@ -5,20 +5,20 @@
 //  Created by Samuel Noye on 08/12/2021.
 //
 
-// import SwiftUI
+import SwiftUI
 
-// @main
-// struct Ama_FruitsApp: App {
-//     @AppStorage("isOnboarding") var isOnboarding: Bool = true
+@main
+struct Ama_FruitsApp: App {
+    @AppStorage("isOnboarding") var isOnboarding: Bool = true
      
-//     var body: some Scene {
-//         WindowGroup {
-//             if isOnboarding{
-//                 OnboardingView()
-//             } else {
-//                 ContentView()
-//             }
+    var body: some Scene {
+        WindowGroup {
+            if isOnboarding{
+                OnboardingView()
+            } else {
+                ContentView()
+            }
             
-//         }
-//     }
-// }
+        }
+    }
+}
