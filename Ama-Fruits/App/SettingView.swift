@@ -72,7 +72,7 @@ struct SettingView: View {
                         
                         SettingsRowView(name: "Developer", content: "John / June")
                         SettingsRowView(name: "Designer", content: "Samuel Noye")
-                        SettingsRowView(name: "Compatibility", content: "IOS 14")
+                       // SettingsRowView(name: "Compatibility", content: "IOS 14")
                         
                         SettingsRowView(name: "Website", linkLabel: "Portfolio", linkDestination: "http://noyesamuel.netlify.app")
                         SettingsRowView(name: "Twitter", linkLabel: "@samilaxy", linkDestination: "twitter.com/samilaxy")
