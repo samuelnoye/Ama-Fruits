@@ -11,5 +11,7 @@ USER INTERFACE AND USER EXPERIENCE APP DESIGN
 8. Learn how to use the new Goup Box View in SwiftUI 2.0
 9. Learn how to use the new Disclosure View in SwiftUI 2.0
 10. How to display views dynamically in a List View with a loop
+11. ![Simulator Screen Shot - iPhone 14 Pro - 2023-01-17 at 12 35 44](https://user-images.githubusercontent.com/59480282/212902212-23630422-e822-445f-9859-eb212ac421b3.png)
+
 ![Simulator Screen Shot - iPhone 14 Pro - 2023-01-17 at 12 36 17](https://user-images.githubusercontent.com/59480282/212901908-ae3ae862-a18a-4500-b68a-f12f486554ae.png)
 
