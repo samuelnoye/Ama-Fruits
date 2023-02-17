@@ -9,7 +9,7 @@ USER INTERFACE AND USER EXPERIENCE APP DESIGN
 6. Understand how the new App Life Cycle works in SwiftUI 2.0
 7. Learn how to use the new Link View in SwiftUI 2.0
 8. Learn how to use the new Goup Box View in SwiftUI 2.0
-9.// Learn how to use the new Disclosure View in SwiftUI 2.0
+9. Learn how to use the new Disclosure View in SwiftUI 2.0
 10. How to display views dynamically in a List View with a loop
 ![Simulator Screen Shot - iPhone 14 Pro - 2023-01-17 at 12 35 44](https://user-images.githubusercontent.com/59480282/212902697-06474956-00dc-4ee3-bcfe-2d1d45ff8a33.png)
 
