@@ -20,7 +20,7 @@ USER INTERFACE AND USER EXPERIENCE APP DESIGN
 ![Simulator Screen Shot - iPhone 14 Pro - 2023-01-17 at 12 36 17](https://user-images.githubusercontent.com/59480282/212902752-3da60dd0-4250-4d01-b902-ee460005ad50.png)
 
  extension UIScreen{
-    static let screenWidth = UIScreen.main.bounds.size.width
+    //static let screenWidth = UIScreen.main.bounds.size.width
     static let screenHeight = UIScreen.main.bounds.size.height
     static let screenSize = UIScreen.main.bounds.size
 }
